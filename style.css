@@ -881,6 +881,13 @@ footer .copy div {
     padding-left: 10px;
   }
 
+  #contents #contact {
+    border-top: #1e3421 8px solid;
+    padding-top: 45px;
+    width: 100%;
+    position: relative;
+    overflow: scroll;
+  }
   #contents #contact .box {
     margin: 0 auto;
     width: 100%;
