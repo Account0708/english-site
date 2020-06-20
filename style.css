@@ -485,6 +485,7 @@ footer .copy div {
   header {
     width: 100%;
     position: fixed;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .3);
   }
   .header-inner h1 {
     text-align: start;
@@ -784,8 +785,8 @@ footer .copy div {
   .main #application .btn_area {
     border-top: 1px dotted #a9a9a9;
     margin: 0 auto;
-    width: calc(100% - 20px);
-    padding: 20px 10px 0px;
+    width: calc(100%);
+    padding: 20px 0px 0px;
     text-align: center;
   }
   .main #application .capacity dl {
@@ -842,7 +843,7 @@ footer .copy div {
     border-bottom: #3b4d3d 1px solid;
     margin-bottom: 47px;
     padding-bottom: 47px;
-    padding-left: 90px;
+    padding-left: 5px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -854,7 +855,11 @@ footer .copy div {
     font-size: 16px;
   }
   #contents #education .grade ol .one {
-    padding: 20px 0 0 100px;
+    padding: 20px 0 0 10px;
+  }
+  #contents #education .grade ol .two {
+    padding: 20px 0 0 10px;
+    margin: 20px 0 0 50px;
   }
 
   #contents #contact .box {
