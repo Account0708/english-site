@@ -568,7 +568,7 @@ footer .copy div {
     width: 50px;
     height: 60px;
     position: absolute;
-    top: 40%;
+    top: 50px;
     transform: translateY(-50%);
     right: 50px;
     cursor: pointer;
