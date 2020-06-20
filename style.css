@@ -13,7 +13,8 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #fff;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+  background: rgba( 255, 255, 255, 0.9);
   z-index: 10;
   padding-bottom: 15px;
 }
@@ -84,11 +85,13 @@ header {
 .contents {
   min-width: 1000px;
   line-height: 1.6em;
+  background: #fafafa;
 }
 .contents .main {
   width: 1000px;
   margin: 0 auto;
-  padding: 65px 0 27px;
+  padding: 65px 0 0px;
+  background: #fff;
 }
 .contents .main-top {
   background: url(./img/main.jpg) repeat-y center center;
@@ -140,26 +143,7 @@ header {
   width: 100%;
   position: relative;
   overflow: hidden;
-}
-.main #location::before {
-  content: "";
-  display: block;
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  top: 0;
-  -webkit-transform-origin: right top;
-  -moz-transform-origin: right top;
-  -ms-transform-origin: right top;
-  transform-origin: right top;
-  background-color: #01062c;
-  border-right: #fff 12px solid;
-  -webkit-transform: translate(-110%, 0) skew(-45deg);
-  -moz-transform: translate(-110%, 0) skew(-45deg);
-  -ms-transform: translate(-110%, 0) skew(-45deg);
-  transform: translate(-110%, 0) skew(-45deg);
-  z-index: 0;
+  background: cornsilk;
 }
 .main #location .box {
   margin: 0 auto;
@@ -179,7 +163,7 @@ header {
   font-size: 14px;
 }
 .main #location .box .ttl_ara h3 {
-  color: #fff;
+  color: #000000;
   z-index: 2;
 }
 .main #location .box .ttl_ara .caption {
@@ -317,8 +301,7 @@ a:hover {
 }
 
 #contents #education {
-  background-color: #7f7f00;
-  color: #fff;
+  color: #000;
   padding-top: 75px;
   position: relative;
   min-width: 1000px;
@@ -328,34 +311,17 @@ a:hover {
     Meiryo, "ＭＳ Ｐゴシック", Osaka, Tahoma, Verdana, Arial, Verdana,
     sans-serif;
   font-size: 14px;
-}
-#contents #education:before {
-  content: "";
-  display: block;
-  width: 150%;
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  top: 0;
-  -webkit-transform: skew(-45deg);
-  -moz-transform: skew(-45deg);
-  -ms-transform: skew(-45deg);
-  transform: skew(-45deg);
-  -webkit-transform-origin: center center;
-  -moz-transform-origin: center center;
-  -ms-transform-origin: center center;
-  transform-origin: center center;
-  background-color: #01062c;
+  background: cornsilk;
 }
 #contents #education .box {
   z-index: 1000;
   margin: 0 auto;
   width: 1000px;
   position: relative;
-  color: #fff;
+  color: #000;
 }
 #contents #education h1 {
-  color: #fff;
+  color: #000;
 }
 #contents #education ol.grade {
   width: 840px;
@@ -371,7 +337,8 @@ a:hover {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  color: #fff;
+  color: #000;
+ 
 }
 #contents #education ol li {
   list-style: none;
@@ -395,31 +362,10 @@ a:hover {
 }
 
 #contents #contact {
-  border-top: #1e3421 8px solid;
   padding-top: 45px;
   width: 100%;
   position: relative;
   overflow: hidden;
-}
-#contents #contact:before {
-  content: "";
-  display: block;
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  top: 0;
-  -webkit-transform-origin: right top;
-  -moz-transform-origin: right top;
-  -ms-transform-origin: right top;
-  transform-origin: right top;
-  background-color: #01062c;
-  border-right: #fff 12px solid;
-  -webkit-transform: translate(-110%, 0) skew(-45deg);
-  -moz-transform: translate(-110%, 0) skew(-45deg);
-  -ms-transform: translate(-110%, 0) skew(-45deg);
-  transform: translate(-110%, 0) skew(-45deg);
-  z-index: 0;
 }
 #contents #contact .box {
   margin: 0 auto;
@@ -439,6 +385,9 @@ a:hover {
     Meiryo, "ＭＳ Ｐゴシック", Osaka, Tahoma, Verdana, Arial, Verdana,
     sans-serif;
   font-size: 14px;
+  background: cornsilk;
+  padding-top: 50px;
+  padding-bottom: 5px;
 }
 #contents #access .ttl_area {
   margin-bottom: 15px;
@@ -477,7 +426,7 @@ footer .copy div {
   margin: 0 auto;
   width: 1000px;
 }
-.target {
+#target {
   display: none;
 }
 
@@ -688,30 +637,10 @@ footer .copy div {
 
   .main #location {
     width: calc(100% - 20px);
-    padding: 15px 0px 0px;
-    margin: 0 10px 80px;
+    padding: 15px 10px 80px;
+    margin: 0 0px 80px;
     position: relative;
     overflow: hidden;
-  }
-  .main #location::before {
-    content: "";
-    display: block;
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    left: 40%;
-    top: 0;
-    -webkit-transform-origin: right top;
-    -moz-transform-origin: right top;
-    -ms-transform-origin: right top;
-    transform-origin: right top;
-    background-color: #01062c;
-    border-right: #fff 12px solid;
-    -webkit-transform: translate(-110%, 0) skew(-45deg);
-    -moz-transform: translate(-110%, 0) skew(-45deg);
-    -ms-transform: translate(-110%, 0) skew(-45deg);
-    transform: translate(-110%, 0) skew(-45deg);
-    z-index: 0;
   }
   .main #location .box {
     margin: 0 auto;
@@ -732,11 +661,10 @@ footer .copy div {
     flex-direction: column;
   }
   .main #location .box .ttl_ara h3 {
-    color: #fff;
+    color: #000000;
     z-index: 2;
-    width: 10%;
+    width: auto;
     font-size: 18px;
-    text-align: center;
   }
   .main #location .box .ttl_ara .caption {
     padding-top: 10px;
@@ -845,10 +773,10 @@ footer .copy div {
     margin: 0 auto;
     width: 100%;
     position: relative;
-    color: #fff;
+    color: #000;
   }
   #contents #education h1 {
-    color: #fff;
+    color: #000;
     padding-bottom: 40px;
   }
   #contents #education ol.grade {
@@ -866,7 +794,7 @@ footer .copy div {
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
-    color: #fff;
+    color: #000000;
     flex-direction: column;
   }
   #contents #education ol.grade ol {
@@ -885,7 +813,6 @@ footer .copy div {
   }
 
   #contents #contact {
-    border-top: #1e3421 8px solid;
     padding-top: 45px;
     width: 100%;
     position: relative;
@@ -913,7 +840,8 @@ footer .copy div {
 
   #contents #access {
     width: calc(100% - 20px);
-    margin: 0 auto 0px;
+    margin: 0 0 0px;
+    padding: 50px 10px 5px;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
       Meiryo, "ＭＳ Ｐゴシック", Osaka, Tahoma, Verdana, Arial, Verdana,
       sans-serif;
@@ -991,9 +919,9 @@ footer .copy div {
     background-size: cover;
   }
   .main #location .box .ttl_ara h3 {
-    color: #fff;
+    color: #000000;
     z-index: 2;
-    width: 10%;
+    width: auto;
     font-size: 16px;
   }
   .main #location .box .ttl_ara .caption {
@@ -1135,9 +1063,9 @@ footer .copy div {
     padding-bottom: 0;
   }
   .main #location .box .ttl_ara h3 {
-    color: #fff;
+    color: #000000;
     z-index: 2;
-    width: 10%;
+    width: auto;
     font-size: 14px;
   }
   #contents #contact .ttl_area {
