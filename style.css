@@ -486,7 +486,8 @@ footer .copy div {
     width: 100%;
   }
   .header-inner h1 {
-    text-align: center;
+    text-align: start;
+    padding-left: 15px;
     color: #353535;
   }
   .header-navi {
@@ -566,9 +567,9 @@ footer .copy div {
     width: 50px;
     height: 60px;
     position: absolute;
-    top: 40%;
+    top: 30px;
     transform: translateY(-50%);
-    right: 50px;
+    right: 10px;
     cursor: pointer;
     display: block;
     -webkit-transition: 1.5s;
