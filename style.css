@@ -644,6 +644,7 @@ footer .copy div {
   .contents {
     min-width: auto;
     line-height: 1.6em;
+    margin-top: 150px;
   }
   .contents .main-top {
     background: url(./img/main.jpg) repeat-y center center;
