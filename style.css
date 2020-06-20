@@ -495,14 +495,15 @@ footer .copy div {
     width: 0;
     height: 100vh;
     top: 0;
-    left: 130%;
+    left: 200%;
     background: burlywood;
     margin: 0;
-    -webkit-transition: 1.5s;
-    transition: 1.5s;
+    -webkit-transition: 1s;
+    transition: 1s;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 999;
   }
   .list {
     display: flex;
@@ -510,8 +511,8 @@ footer .copy div {
     flex-direction: column;
     list-style: none;
     margin: 0 20px;
-    -webkit-transition: 1.5s;
-    transition: 1.5s;
+    -webkit-transition: 1s;
+    transition: 1s;
   }
 
   .list li {
@@ -547,6 +548,7 @@ footer .copy div {
     transition: 0.3s ease;
     width: 100%;
     height: 100%;
+    white-space: nowrap;
   }
   .list .center {
     width: auto;
@@ -564,21 +566,22 @@ footer .copy div {
 
   /* hamburger_line */
   #target {
-    width: 50px;
+    width: 60px;
     height: 60px;
     position: absolute;
     top: 30px;
     transform: translateY(-50%);
-    right: 10px;
+    right: 0px;
     cursor: pointer;
     display: block;
-    -webkit-transition: 1.5s;
-    transition: 1.5s;
+    -webkit-transition: 1s;
+    transition: 1s;
+    z-index: 1000;
   }
 
   .target_inner {
-    width: 40px;
-    height: 30px;
+    width: 60px;
+    height: 40px;
     position: relative;
   }
 
@@ -587,8 +590,8 @@ footer .copy div {
     width: 40px;
     height: 5px;
     background: #636363;
-    -webkit-transition: 1.5s;
-    transition: 1.5s;
+    -webkit-transition: 1s;
+    transition: 1s;
     border-radius: 50px;
     position: absolute;
   }
@@ -618,8 +621,8 @@ footer .copy div {
   }
 
   .linea {
-    -webkit-transform: rotate(225deg);
-    transform: rotate(225deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
     top: 13px;
   }
 
@@ -628,8 +631,8 @@ footer .copy div {
   }
 
   .linec {
-    -webkit-transform: rotate(-225deg);
-    transform: rotate(-225deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
     top: 13px;
   }
 
@@ -640,7 +643,7 @@ footer .copy div {
   .contents .main-top {
     background: url(./img/main.jpg) repeat-y center center;
     background-color: #01062c;
-    height: 499px;
+    height: 200px;
     min-width: auto;
     width: 100%;
     background-size: cover;
@@ -650,7 +653,6 @@ footer .copy div {
     padding: 65px 10px 27px;
   }
   .main h1 {
-    font-size: 35px;
     color: #353535;
   }
   .main #info {
