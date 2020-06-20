@@ -484,6 +484,7 @@ footer .copy div {
 @media screen and (max-width: 1050px) {
   header {
     width: 100%;
+    position: fixed;
   }
   .header-inner h1 {
     text-align: start;
