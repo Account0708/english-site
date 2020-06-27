@@ -344,7 +344,7 @@ a:hover {
   list-style: none;
 }
 #contents #education .grade ol > li {
-  min-height: 98px;
+  min-height: auto;
 }
 #contents #education ol.grade li ol li {
   margin: 0;
@@ -357,8 +357,8 @@ a:hover {
   padding-left: 15px;
 }
 #contents #education .grade ol .two {
-  padding: 20px 0 0 119px;
-  margin: 20px 0 0 50px;
+  padding: 0px 0 0 119px;
+  margin: 0;
 }
 
 #contents #contact {
@@ -393,6 +393,7 @@ a:hover {
   margin-bottom: 15px;
 }
 #contents #access .ttl_area .detail {
+  margin-top: 30px;
   text-align: right;
 }
 #contents #access address {
@@ -407,7 +408,7 @@ a:hover {
 
 footer {
   width: 100%;
-  color: #353535;
+  color: #ffffff;
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
     Meiryo, "ＭＳ Ｐゴシック", Osaka, Tahoma, Verdana, Arial, Verdana,
     sans-serif;
@@ -675,7 +676,12 @@ footer .copy div {
     text-align: center;
   }
   .main #location .slide_area img {
-    margin-right: 15%;
+    margin-right: auto;
+    max-width: 528px;
+    width: 100%;
+  }
+  .main #location .slide_area {
+    text-align: center;
   }
   .main #location .box .location_text {
     margin-bottom: 45px;
@@ -784,6 +790,7 @@ footer .copy div {
     margin: 0 auto;
     padding: 0;
   }
+  
   #contents #education ol.grade > li {
     border-bottom: #3b4d3d 1px solid;
     margin-bottom: 47px;
@@ -799,18 +806,23 @@ footer .copy div {
   }
   #contents #education ol.grade ol {
     font-size: 16px;
-    margin: 0 auto;
+    margin: 0 auto 0 25%;
+  }
+  #contents #education .grade ol > li {
+    min-height: auto;
   }
   #contents #education .grade ol .one {
     padding: 20px 0 0 0px;
   }
   #contents #education .grade ol .two {
-    padding: 20px 0 0 0px;
-    margin: 20px 0 0 50px;
+    padding: 0;
+    margin: 0;
   }
   #contents #education ol.grade ol li ul li {
-    padding-left: 10px;
+    padding: 0;
+    margin-bottom: 5px;
   }
+  
 
   #contents #contact {
     padding-top: 45px;
@@ -876,7 +888,7 @@ footer .copy div {
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
       Meiryo, "ＭＳ Ｐゴシック", Osaka, Tahoma, Verdana, Arial, Verdana,
       sans-serif;
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
@@ -934,7 +946,7 @@ footer .copy div {
   }
   #contents #education ol.grade ol {
     font-size: 16px;
-    margin: 0;
+    margin: 0 auto 0 12%;
   }
   #contents #contact .ttl_area {
     margin-bottom: 40px;
@@ -1081,6 +1093,6 @@ footer .copy div {
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
       Meiryo, "ＭＳ Ｐゴシック", Osaka, Tahoma, Verdana, Arial, Verdana,
       sans-serif;
-    font-size: 12px;
+    font-size: 11px;
   }
 }
