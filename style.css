@@ -863,6 +863,9 @@ footer .copy div {
       sans-serif;
     font-size: 18px;
   }
+  #contents #access h1 {
+    padding: 0;
+  }
   #contents #access .googolemap {
     text-align: center;
     margin-bottom: 40px;
