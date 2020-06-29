@@ -396,6 +396,7 @@ a:hover {
 #contents #access .ttl_area .detail {
   margin-top: 30px;
   text-align: right;
+  padding-right: 20px;
 }
 #contents #access address {
   font-style: normal;
@@ -865,6 +866,9 @@ footer .copy div {
   }
   #contents #access h1 {
     padding: 0;
+  }
+  #contents #access .ttl_area .detail {
+    padding-right: 0px;
   }
   #contents #access .googolemap {
     text-align: center;
