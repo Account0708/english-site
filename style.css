@@ -94,12 +94,13 @@ header {
   background: #fff;
 }
 .contents .main-top {
-  background: url(./img/main.jpg) repeat-y center center;
-  background-color: #01062c;
-  height: 499px;
   min-width: 1000px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.contents .main-top img {
   width: 100%;
-  background-size: cover;
 }
 .main h1 {
   font-size: 28px;
@@ -173,12 +174,12 @@ header {
   font-size: 18px;
 }
 .main #location .slide_area {
-  text-align: right;
+  text-align: center;
   margin-bottom: 40px;
   width: 100%;
 }
 .main #location .slide_area img {
-  margin-right: 20%;
+  width: 80%;
 }
 .main #location .box .location_text {
   margin-bottom: 45px;
@@ -598,12 +599,11 @@ footer .copy div {
     margin-top: 77px;
   }
   .contents .main-top {
-    background: url(./img/main.jpg) repeat-y center center;
-    background-color: #01062c;
-    height: 400px;
     min-width: auto;
     width: 100%;
-    background-size: cover;
+  }
+  .contents .main-top img {
+    width: 100%;
   }
   .contents .main {
     width: 100%;
@@ -637,7 +637,8 @@ footer .copy div {
     margin-right: 0px;
   }
   .main #info .img {
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
   }
 
   .main #location {
@@ -935,12 +936,11 @@ footer .copy div {
     white-space: nowrap;
   }
   .contents .main-top {
-    background: url(./img/main.jpg) repeat-y center center;
-    background-color: #01062c;
-    height: 200px;
     min-width: auto;
     width: 100%;
-    background-size: cover;
+  }
+  .contents .main-top img {
+    width: 100%;
   }
   .main #location .box .ttl_ara h3 {
     color: #000000;
@@ -1051,6 +1051,10 @@ footer .copy div {
 @media screen and (max-width: 520px) {
   #contents #education ol.grade ol li ul li br {
     display: none;
+  }
+  .main #info .img {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 370px) {
