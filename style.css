@@ -830,7 +830,6 @@ footer .copy div {
     margin-bottom: 50px;
     text-align: center;
     color: black;
-    font-size: 20px;
   }
 
   #contents #education {
@@ -970,7 +969,9 @@ footer .copy div {
     font-size: 18px;
   }
   #price .scroll {
-    overflow-x: scroll;
+    overflow-x: auto;
+    overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
   }
 }
 
