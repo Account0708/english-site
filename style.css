@@ -108,8 +108,8 @@ header {
   padding-left: 20px;
 }
 .main #info {
-  margin: 50px auto 110px;
-  padding-top: 35px;
+  margin: 0px auto 110px;
+  padding-top: 0px;
   width: 915px;
 }
 .main #info h3 {
@@ -428,11 +428,68 @@ footer .copy {
 }
 footer .copy div {
   margin: 0 auto;
-  width: calc(1000px -20px );
+  width: calc(1000px -20px);
   padding-left: 20px;
 }
 #target {
   display: none;
+}
+
+#price {
+  padding-top: 55px;
+  font-size: 14px;
+ 
+}
+#price h3 {
+  margin-bottom: 50px;
+  text-align: center;
+  color: black;
+  font-size: x-large;
+}
+#price table {
+  margin: 0 auto;
+  font-weight: bold;
+  border: 1px solid #353535;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 1000px;
+}
+#price table tbody tr {
+  font-weight: 400;
+}
+
+#price table tbody tr:nth-child(1) {
+  background-color: #01062c;
+  color: #ffffff;
+  font-weight: bold;
+}
+#price table tbody tr:nth-child(2){
+  background-color: cornsilk;
+}
+#price table tbody tr:nth-child(5){
+  background-color: cornsilk;
+}
+#price table tbody tr td {
+  border: 1px solid #353535;
+  text-align: center;
+}
+#price table tbody tr .course {
+  text-align: center;
+}
+#price table tbody tr th {
+  text-align: center;
+  padding: 10px 0px;
+  border: 1px solid #353535;
+  font-weight: 400;
+}
+#price table tbody tr:nth-child(1) td {
+  border: #a1a1a1 1px solid;
+  padding-left: 0;
+}
+#price table tbody tr:nth-child(1) th {
+  border: #a1a1a1 1px solid;
+  font-weight: bold;
+  padding: 8px 0;
 }
 
 @media screen and (max-width: 1050px) {
@@ -902,6 +959,18 @@ footer .copy div {
       sans-serif;
     font-size: 13px;
     padding: 0;
+  }
+  #price table {
+    margin: 0 auto;
+    font-weight: bold;
+    border: 1px solid #353535;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 1200px;
+    font-size: 18px;
+  }
+  #price .scroll {
+    overflow-x: scroll;
   }
 }
 
